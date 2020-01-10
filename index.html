@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="guessColor.css">
+    <title>Emma's Color Guessing Game</title>
+</head>
+<body>
+    <audio id="cheersAudio">
+        <source src="assets/cheers.mp3" type="audio/mpeg">
+        <source src="assets/cheers.wav" >
+    </audio>
+    <audio id="sadAudio">
+        <source src="assets/sad-trombone.mp3" type="audio/mpeg">
+        <source src="assets/sad-trombone.wav" >
+    </audio>
+    <div id="header">
+        <div id="title">
+            <h1>Emma's Great Color Guessing Game</h1>
+        </div>
+        <div class="question-container" id="question">
+            <h3>Can you find the color: </h3>
+            <div class="answer-container">
+                <h4 id="answerText"></h4>
+                <div id="answerSquare"></div>
+            </div>
+            <div class="buttons">
+                <button id="reset">Reset</button>
+                <button class="mode" id="six">Play 6 Cards</button>
+                <button class="mode" id="three">Play 3 Cards</button>
+            </div>
+            
+        </div>
+        <span id="message"></span>
+    </div>
+   
+
+ 
+    <div id="color-container">
+        <!-- <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div> -->
+        <!-- <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div> -->
+    </div>
+    
+    
+
+
+
+<!-- JAVASCRIPT     -->
+<script type="text/javascript" src="guessColor.js"></script>
+</body>
+</html>
